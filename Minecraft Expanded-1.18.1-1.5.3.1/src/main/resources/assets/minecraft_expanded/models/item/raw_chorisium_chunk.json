@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "minecraft_expanded:item/raw_chorisium_chunk"
-  }
-}
