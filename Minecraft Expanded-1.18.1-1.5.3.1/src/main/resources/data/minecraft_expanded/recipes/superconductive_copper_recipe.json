@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "item": "minecraft_expanded:superconductive_copper_block",
+    "count": 4
+  }
+}

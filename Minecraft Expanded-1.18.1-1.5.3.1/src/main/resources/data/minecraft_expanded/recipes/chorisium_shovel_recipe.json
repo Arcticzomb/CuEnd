@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "minecraft_expanded:chorisium_ingot"
+  },
+  "result": {
+    "item": "minecraft_expanded:chorisium_shovel"
+  }
+}

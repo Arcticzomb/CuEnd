@@ -1,0 +1,47 @@
+{
+  "//comment1": "Chorisium Items",
+  "item.minecraft_expanded.raw_chorisium_chunk": "Raw Chorisium Chunk",
+  "item.minecraft_expanded.chorisium_ingot": "Chorisium Ingot",
+  "item.minecraft_expanded.chorisium_sword": "Chorisium Sword",
+  "item.minecraft_expanded.chorisium_pickaxe": "Chorisium Pickaxe",
+  "item.minecraft_expanded.chorisium_war_axe": "Chorisium War Axe",
+  "item.minecraft_expanded.chorisium_shovel": "Chorisium Shovel",
+  "item.minecraft_expanded.chorisium_helmet": "Chorisium Helmet",
+  "item.minecraft_expanded.chorisium_chestplate": "Chorisium Chestplate",
+  "item.minecraft_expanded.chorisium_leggings": "Chorisium Leggings",
+  "item.minecraft_expanded.chorisium_boots": "Chorisium Boots",
+
+  "//comment2": "Extra Items",
+  "item.minecraft_expanded.shattered_pearl": "Shattered Pearl",
+  "item.minecraft_expanded.shattered_eye_of_ender": "Shattered Eye Of Ender",
+  "item.minecraft_expanded.saving_grace": "Saving Grace",
+  "item.minecraft.potion.effect.ender_potion": "Potion of Ender",
+  "item.minecraft.splash_potion.effect.ender_potion": "Splash Potion of Ender",
+  "item.minecraft.lingering_potion.effect.ender_potion": "Lingering Potion of Ender",
+  "item.minecraft_expanded.unstable_dust": "Unstable Dust",
+  "item.minecraft_expanded.diamond_bit": "Diamond Bit",
+  "item.minecraft_expanded.diamond_chunk": "Diamond Chunk",
+  "item.minecraft_expanded.unrefined_diamond": "Unrefined Diamond",
+
+  "//comment3": "Copper Items",
+  "item.minecraft_expanded.copper_sword": "Copper Sword",
+  "item.minecraft_expanded.copper_pickaxe": "Copper Pickaxe",
+  "item.minecraft_expanded.copper_helmet": "Copper Helmet",
+  "item.minecraft_expanded.copper_chestplate": "Copper Chestplate",
+  "item.minecraft_expanded.copper_leggings": "Copper Leggings",
+  "item.minecraft_expanded.copper_boots": "Copper Boots",
+  "block.minecraft_expanded.superconductive_copper_block": "Superconductive Copper",
+  "block.minecraft_expanded.electrified_copper_block": "Electrified Copper",
+  "effect.minecraft_expanded.electrocute": "Electrocution",
+
+  "//comment4": "Axolotl Fun",
+  "item.minecraft_expanded.axobotl": "Axobotl",
+  "item.minecraft_expanded.dripolotl": "Dripolotl",
+
+  "//comment5": "Music Discs",
+  "item.minecraft_expanded.otherstep_music_disc": "Music Disc",
+  "item.minecraft_expanded.otherstep_music_disc.desc": "Oblicative - Otherstep",
+
+  "//comment6": "Creative Mode Tab",
+  "itemGroup.minecraft_expandedTab": "Minecraft Expanded Tab"
+}

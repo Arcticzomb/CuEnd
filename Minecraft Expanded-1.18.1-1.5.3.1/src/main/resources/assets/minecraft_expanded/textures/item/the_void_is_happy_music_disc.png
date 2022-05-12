@@ -1,0 +1,16 @@
+	public static final RegistryObject<SoundEvent> THE_VOID_IS_HAPPY =
+			soundEventRegistryObject("the_void_is_happy");
+
+  "item.minecraft_expanded.the_void_is_happy_music_disc": "Music Disc",
+  "item.minecraft_expanded.otherstep_music_disc.desc": "AJR - 3oclock things instrumental",
+
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft_expanded:item/the_void_is_happy_music_disc"
+  }
+}
+
+    public static final RegistryObject<Item> THE_VOID_IS_HAPPY_MUSIC_DISC = ITEMS.register("the_void_is_happy_music_disc",
+            () -> new RecordItem(14, () -> ModSoundEvents.THE_VOID_IS_HAPPY.get(),
+                    new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).tab(ModCreativeModeTab.MINECRAFT_EXPANDED_TAB)));

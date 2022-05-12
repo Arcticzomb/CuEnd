@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cuend:block/electrified_copper_block"}
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft_expanded:diamond_chunk"
+    }
+
+  },
+  "result": {
+    "item": "minecraft_expanded:unrefined_diamond",
+    "count": 1
+  }
+}

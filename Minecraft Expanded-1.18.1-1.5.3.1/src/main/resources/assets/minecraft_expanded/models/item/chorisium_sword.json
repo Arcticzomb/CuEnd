@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "minecraft_expanded:item/chorisium_sword"
+  }
+}

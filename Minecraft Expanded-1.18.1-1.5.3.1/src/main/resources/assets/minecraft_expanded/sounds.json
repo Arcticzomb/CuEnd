@@ -1,0 +1,18 @@
+{
+  "the_void_is_happy": {
+    "sounds": [
+      {
+        "name": "minecraft_expanded:the_void_is_happy",
+        "stream": true
+      }
+    ]
+  },
+  "otherstep": {
+    "sounds": [
+      {
+        "name": "minecraft_expanded:otherstep",
+        "stream": true
+      }
+    ]
+  }
+}

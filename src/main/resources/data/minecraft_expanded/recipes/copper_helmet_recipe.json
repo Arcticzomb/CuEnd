@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_ingot"
+    },
+    "1": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "cuend:copper_helmet",
+    "count": 1
+  }
+}

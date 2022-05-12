@@ -1,0 +1,18 @@
+{
+  "the_void_is_happy": {
+    "sounds": [
+      {
+        "name": "cuend:the_void_is_happy",
+        "stream": true
+      }
+    ]
+  },
+  "otherstep": {
+    "sounds": [
+      {
+        "name": "cuend:otherstep",
+        "stream": true
+      }
+    ]
+  }
+}

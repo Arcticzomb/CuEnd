@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 10,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "cuend:unrefined_diamond"
+  },
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}

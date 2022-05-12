@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft_expanded:shattered_eye_of_ender"
+    },
+    {
+      "item": "minecraft_expanded:shattered_pearl"
+    },
+    {
+      "item": "minecraft_expanded:shattered_pearl"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    }
+  ],
+  "result": {
+    "item": "minecraft_expanded:raw_chorisium_chunk",
+    "count": 1
+  }
+}

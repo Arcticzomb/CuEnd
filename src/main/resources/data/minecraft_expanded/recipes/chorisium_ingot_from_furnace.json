@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 15,
+  "cookingtime": 350,
+  "ingredient": {
+    "item": "cuend:raw_chorisium_chunk"
+  },
+  "result": {
+    "item": "cuend:chorisium_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 20,
+  "cookingtime": 175,
+  "ingredient": {
+    "item": "cuend:raw_chorisium_chunk"
+  },
+  "result": {
+    "item": "cuend:chorisium_ingot"
+  }
+}
