@@ -29,7 +29,7 @@ displayName="CuEnd" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="DuckTM: Carrying this mod and also causing 90% of the major errors. Is also sexy as duck. And a duck. Dackel09: providing all of the assets and features while making so many spelling errors I had an anuerism. SystemRed09: Emotional support." #optional
+credits="DuckTM: Carrying this mod and also causing 90% of the major errors. Is also sexy as duck. And a duck. Dackel09: providing all of the assets and features while making so many spelling errors I had an anuerism. Skymatics: Updating Dackel09's shit ass textures. SystemRed09: Emotional support." #optional
 # A text field displayed in the mod UI
 authors="DuckTM, Dackel09" #optional
 # The description text for the mod (multi line!) (#mandatory)
@@ -43,7 +43,7 @@ A mod to expand on the current things in Minecraft albiet they may be a tad op.
     # Does this dependency have to exist - if not, ordering below must be specified
     mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[39,)" #mandatory
+    versionRange="[40,)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
@@ -53,6 +53,6 @@ A mod to expand on the current things in Minecraft albiet they may be a tad op.
     modId="cuend"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.18.1,1.19)"
+    versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"
