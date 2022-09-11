@@ -88,9 +88,12 @@ public class ModItems {
                     new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).tab(ModCreativeModeTab.CUEND_TAB)));
 */
     public static final RegistryObject<Item> OTHERSTEP_MUSIC_DISC = ITEMS.register("otherstep_music_disc",
-            () -> new RecordItem(14, () -> ModSoundEvents.OTHERSTEP.get(),
-                    new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).tab(CuEndTab.CUEND_TAB)));
+            () -> new RecordItem(14, ModSoundEvents.OTHERSTEP.get(),
+                    new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).tab(CuEndTab.CUEND_TAB), 200));
 
+                    /*14, () -> ModSoundEvents.OTHERSTEP.get(),
+                    new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).tab(CuEndTab.CUEND_TAB)));
+*/
     public static final RegistryObject<Item> AXOBOTL = ITEMS.register("axobotl",
             () -> new Item(new Item.Properties().tab(CuEndTab.CUEND_TAB)));
 
