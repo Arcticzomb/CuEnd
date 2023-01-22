@@ -1,9 +1,7 @@
 package net.ducktm.cuend.ChorisiumModelRendering;
 
-import net.ducktm.cuend.init.CuEndTab;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
-import org.antlr.v4.codegen.model.Loop;
 import software.bernie.geckolib3.core.IAnimatable;
 import software.bernie.geckolib3.core.PlayState;
 import software.bernie.geckolib3.core.builder.AnimationBuilder;
