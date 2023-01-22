@@ -72,6 +72,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_CHORISIUM_CHUNK = ITEMS.register("raw_chorisium_chunk",
             () -> new Item(new Item.Properties().tab(CuEndTab.CUEND_TAB)));
+    public static final RegistryObject<Item> SCORCHED_CHORUS = ITEMS.register("scorched_chorus",
+            () -> new Item(new Item.Properties().tab(CuEndTab.CUEND_TAB)));
     public static final RegistryObject<Item> CHORISIUM_INGOT = ITEMS.register("chorisium_ingot",
             () -> new Item(new Item.Properties().fireResistant().tab(CuEndTab.CUEND_TAB)));
     public static final RegistryObject<Item> UNSTABLE_DUST = ITEMS.register("unstable_dust",
