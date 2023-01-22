@@ -29,7 +29,7 @@ displayName="CuEnd" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="DuckTM: Carrying this mod and also causing 90% of the major errors. Is also sexy as duck. And a duck. Dackel09: providing all of the assets and features while making so many spelling errors I had an anuerism. Skymatics: Updating Dackel09's shit ass textures. SystemRed09: Emotional support." #optional
+credits="DuckTM: Carrying this mod and also causing 90% of the major errors. Is also sexy as duck. And a duck. Dackel09: providing all of the assets and features while making so many spelling errors everyone had many anuerisms. Skymatics: Giving design ideas. SystemRed09: Emotional support." #optional
 # A text field displayed in the mod UI
 authors="DuckTM, Dackel09" #optional
 # The description text for the mod (multi line!) (#mandatory)
