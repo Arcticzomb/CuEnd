@@ -1,5 +1,6 @@
 package net.ducktm.cuend.init;
 
+import net.ducktm.cuend.ChorisiumModelRendering.ChorisiumArmorItem;
 import net.ducktm.cuend.CuEnd;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -52,16 +53,16 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> CHORISIUM_HELMET = ITEMS.register("chorisium_helmet",
-            () -> new ArmorItem(ModArmorMaterial.CHORISIUM, EquipmentSlot.HEAD,
+            () -> new ChorisiumArmorItem(ModArmorMaterial.CHORISIUM, EquipmentSlot.HEAD,
                     new Item.Properties().fireResistant().tab(CuEndTab.CUEND_TAB)));
     public static final RegistryObject<Item> CHORISIUM_CHESTPLATE = ITEMS.register("chorisium_chestplate",
-            () -> new ArmorItem(ModArmorMaterial.CHORISIUM, EquipmentSlot.CHEST,
+            () -> new ChorisiumArmorItem(ModArmorMaterial.CHORISIUM, EquipmentSlot.CHEST,
                     new Item.Properties().fireResistant().tab(CuEndTab.CUEND_TAB)));
     public static final RegistryObject<Item> CHORISIUM_LEGGINGS = ITEMS.register("chorisium_leggings",
-            () -> new ArmorItem(ModArmorMaterial.CHORISIUM, EquipmentSlot.LEGS,
+            () -> new ChorisiumArmorItem(ModArmorMaterial.CHORISIUM, EquipmentSlot.LEGS,
                     new Item.Properties().fireResistant().tab(CuEndTab.CUEND_TAB)));
     public static final RegistryObject<Item> CHORISIUM_BOOTS = ITEMS.register("chorisium_boots",
-            () -> new ArmorItem(ModArmorMaterial.CHORISIUM, EquipmentSlot.FEET,
+            () -> new ChorisiumArmorItem(ModArmorMaterial.CHORISIUM, EquipmentSlot.FEET,
                     new Item.Properties().fireResistant().tab(CuEndTab.CUEND_TAB)));
 
 
