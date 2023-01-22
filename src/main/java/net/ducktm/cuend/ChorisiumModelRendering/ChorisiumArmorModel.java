@@ -13,7 +13,7 @@ public class ChorisiumArmorModel extends AnimatedGeoModel<ChorisiumArmorItem> {
 
     @Override
     public ResourceLocation getTextureLocation(ChorisiumArmorItem object) {
-        return new ResourceLocation(CuEnd.MOD_ID, "textures/models/armor/chorisium_armor_texture.png");
+        return new ResourceLocation(CuEnd.MOD_ID, "textures/models/armor/chorisium_armor_texture_v2.png");
     }
 
     @Override
