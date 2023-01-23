@@ -45,13 +45,13 @@ public class SavingGraceProcedure {
 				if (entity instanceof Player _playerHasItem && _playerHasItem.getInventory().contains(new ItemStack(ModItems.SAVING_GRACE.get()))) {
 					{
 						Entity _ent = entity;
-						_ent.teleportTo(x, (entity.getY() + 178), z);
+						_ent.teleportTo(x, (entity.getY() + 120), z);
 						if (_ent instanceof ServerPlayer _serverPlayer) {
-							_serverPlayer.connection.teleport(x, (entity.getY() + 178), z, _ent.getYRot(), _ent.getXRot(), Collections.emptySet());
+							_serverPlayer.connection.teleport(x, (entity.getY() + 120), z, _ent.getYRot(), _ent.getXRot(), Collections.emptySet());
 						}
 					}
 					if (entity instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 300, 0, (false), (false)));
+						_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 340, 0, (false), (false)));
 					if (entity instanceof LivingEntity _entity)
 						_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 0, (false), (false)));
 					if (entity instanceof Player _player) {

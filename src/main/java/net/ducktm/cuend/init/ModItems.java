@@ -23,7 +23,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> CHORISIUM_SWORD = ITEMS.register("chorisium_sword",
-            () -> new SwordItem(ModTiers.CHORISIUM, 4, -2.4f,
+            () -> new SwordItem(ModTiers.CHORISIUM, 3, -2.4f,
                     new Item.Properties().fireResistant().tab(CuEndTab.CUEND_TAB)));
     public static final RegistryObject<Item> CHORISIUM_SHOVEL = ITEMS.register("chorisium_shovel",
             () -> new ShovelItem(ModTiers.CHORISIUM, 1.5f, -3f,
@@ -32,10 +32,10 @@ public class ModItems {
             () -> new PickaxeItem(ModTiers.CHORISIUM, 1, -2.8f,
                     new Item.Properties().fireResistant().tab(CuEndTab.CUEND_TAB)));
     public static final RegistryObject<Item> CHORISIUM_AXE = ITEMS.register("chorisium_axe",
-            () -> new AxeItem(ModTiers.CHORISIUM, 5, -3f,
+            () -> new AxeItem(ModTiers.CHORISIUM, 5, -2.9f,
                     new Item.Properties().fireResistant().tab(CuEndTab.CUEND_TAB)));
     public static final RegistryObject<Item> CHORISIUM_HOE = ITEMS.register("chorisium_hoe",
-            () -> new HoeItem(ModTiers.CHORISIUM, 5, 0f,
+            () -> new HoeItem(ModTiers.CHORISIUM, 5, -2f,
                     new Item.Properties().fireResistant().tab(CuEndTab.CUEND_TAB)));
 
 
