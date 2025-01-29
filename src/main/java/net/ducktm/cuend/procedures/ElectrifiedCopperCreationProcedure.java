@@ -1,10 +1,10 @@
 package net.ducktm.cuend.procedures;
 
 import net.ducktm.cuend.init.ModBlocks;
+import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.world.BlockEvent;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.LevelAccessor;
@@ -21,7 +21,13 @@ public class ElectrifiedCopperCreationProcedure {
 	@SubscribeEvent
 	public static void onBlockPlace(BlockEvent.EntityPlaceEvent event) {
 		Entity entity = event.getEntity();
+		execute(event.getLevel(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ());
+
+			/*BlockEvent.EntityPlaceEvent event) {
+		Entity entity = event.getEntity();
 		execute(event, event.getWorld(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ());
+
+			 */
 	}
 
 	public static void execute(LevelAccessor world, double x, double y, double z) {
